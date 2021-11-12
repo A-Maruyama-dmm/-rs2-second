@@ -10,7 +10,7 @@ class BooksController < ApplicationController
       @books = Book.all
     render 'index'
     end
-  end
+   end
 
   def index
     @books = Book.all
